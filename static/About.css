@@ -1,0 +1,59 @@
+#about h1 {
+    font-size: 4rem;
+    color: var(--pink);
+    text-align: center;
+    letter-spacing: 0.2rem;
+    padding: 0rem 1rem;
+}
+
+#about .text {
+    font-size: 2rem;
+    color: #aaa;
+    text-align: center;
+    font-weight: 300;
+    padding: 0rem 1rem;
+}
+
+#about .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about .row .content {
+    margin-left: 5rem;
+}
+
+#about .row .content h3 {
+    font-size: 3rem;
+    color: var(--pink);
+}
+
+#about .row .content p {
+    font-size: 1.3rem;
+    color: #999;
+    padding: 1rem 0rem;
+}
+
+#about .row .content button {
+    height: 5rem;
+    width: 15rem;
+    font-size: 2rem;
+    border-radius: 1.3rem;
+    background-color: var(--violet);
+    color: #fff;
+    border: none;
+    box-shadow: 0rem 0.3rem 0.5rem rgba(0, 0, 0, 0.468);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#about .row .content button:hover {
+    border-radius: 1.7rem;
+    background-color: var(--pink);
+}
+
+#about .row .image img {
+    height: 70vh;
+    width: 50vw;
+}

@@ -1,0 +1,44 @@
+#course .box-container {
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 4rem;
+}
+
+#course .box-container .box {
+    height: 20rem;
+    width: 25rem;
+    margin: 2rem 3rem;
+    text-align: center;
+    border-radius: 2rem;
+    box-shadow: 0.3rem 0.3rem 0 0.1rem var(--violet),
+        0.5rem 0.5rem 0.5rem 0rem rgba(0, 0, 0, 0.468);
+}
+
+#course .box-container .box i {
+    height: 10rem;
+    width: 10rem;
+    line-height: 8rem;
+    text-align: center;
+    color: #fff;
+    background-color: var(--pink);
+    border-radius: 50%;
+    border: 1rem solid #fff;
+    border-left: 1rem solid var(--pink);
+    border-right: 1rem solid var(--pink);
+    box-shadow: 0 0 0 1rem #fff inset;
+    font-size: 3rem;
+}
+
+#course .box-container .box h3 {
+    font-size: 2rem;
+    color: var(--violet);
+}
+
+#course .box-container .box p {
+    font-size: 1.3rem;
+    color: #999;
+    padding: 1rem 0;
+}
