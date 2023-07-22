@@ -174,10 +174,6 @@ header .nav-toggle {
         padding: 1rem 0.8rem;
     }
 
-    #home::before {
-        display: none;
-    }
-
     #about .row {
         flex-direction: column-reverse;
     }
