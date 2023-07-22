@@ -1,6 +1,20 @@
 #contact {
     background: #333;
+    position: relative;
 }
+
+/* #contact::before{
+    content: "";
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: -25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-bottom: 70vh solid #333;
+    border-radius: 50%;
+    z-index: -1;
+} */
 
 #contact .row {
     display: flex;
@@ -26,7 +40,7 @@ textarea {
     font-size: 1.7rem;
     color: var(--pink);
     margin: 1rem 0;
-    padding:2rem;
+    padding: 2rem;
     border: 1px solid #333;
     transition: 0.2s linear;
 }
@@ -46,19 +60,19 @@ textarea:focus {
 #contact .row .form-container button {
     width: 17rem;
     padding: 1rem 0;
-    border: 0.2rem solid var(--pink);
     border-radius: 2rem;
-    background: var(--pink);
     font-size: 2rem;
-    color: #fff;
     transition: 0.2s;
     cursor: pointer;
-}
-
-#contact .row .form-container button:hover {
     background: none;
     color: var(--pink);
     border: 0.2rem solid var(--pink);
+}
+
+#contact .row .form-container button:hover {
+    color: #fff;
+    border: 0.2rem solid var(--pink);
+    background: var(--pink);
 }
 
 #contact .row .form-container h2 {

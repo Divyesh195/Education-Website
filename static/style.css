@@ -17,8 +17,9 @@ body {
 }
 
 :root {
-    --pink: #FF046F;
-    --violet: #C63BFA;
+    --pink: #ff0099;
+    /* --violet: #c5008d; */
+    --violet:#b200b8;
 }
 
 *::selection {
