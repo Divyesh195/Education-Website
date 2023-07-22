@@ -15,7 +15,7 @@ xyz.once('open',()=>{
 const formSchema=new mongoose.Schema({
     name:String,
     email:String,
-    mobile:String,
+    phone:String,
     message:String
 })
 
