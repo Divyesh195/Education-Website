@@ -39,9 +39,9 @@ textarea {
     border-radius: 5rem;
     font-size: 1.7rem;
     color: var(--pink);
+    border: 0.2rem solid #fff;
     margin: 1rem 0;
     padding: 2rem;
-    border: 1px solid #333;
     transition: 0.2s linear;
 }
 
