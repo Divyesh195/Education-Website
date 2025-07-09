@@ -1,0 +1,57 @@
+#teacher {
+    background-color: #f9f9f9;
+}
+
+#teacher .card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+}
+
+#teacher .card-container .card {
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.468);
+    font-size: 2rem;
+    padding: 2rem;
+    margin: 2rem;
+    width: 28rem;
+}
+
+#teacher .card img {
+    height: 30rem;
+    width: 100%;
+    object-fit: cover;
+    filter: grayscale();
+    transition: 0.2s;
+}
+
+#teacher .card img:hover {
+    filter: grayscale(0);
+}
+
+#teacher .card-container .card h3 {
+    color: var(--pink);
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+
+#teacher .card-container .card p {
+    color: #666;
+    font-size: 1.4rem;
+}
+
+#teacher .card-container .card .icons a {
+    font-size: 2rem;
+    padding: 0rem 0rem;
+    margin: 0.5rem 1rem;
+    color: var(--pink);
+}
+
+#teacher .card-container .card .icons a:hover {
+    color: var(--violet);
+}
